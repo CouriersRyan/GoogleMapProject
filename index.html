@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!--<script src="http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp"></script>-->
+	 <!-- <script src="https://developers.google.com/maps/documentation/javascript/examples/json/earthquake_GeoJSONP.js"></script> -->
+
+</head>
+<body>
+<script src="main.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRCIgmUNuu_kRmDh90JAvzpaGtKYSixxE&callback=initMap"
+    async defer></script>
+
+	<input type="button" id="runMap" value="Geocoder">
+	<input type="textbox" id="input">
+	<div id="map"></div>
+	<input type="button" id="toggleMap" value="Toggle">
+	<input type="button" id="randomLocation" value="Random">
+	 
+   
+</body>
+</html>
